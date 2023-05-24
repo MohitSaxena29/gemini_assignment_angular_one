@@ -1,0 +1,68 @@
+.heading{
+    text-align: center;
+    
+}
+
+.btn{
+    padding: 10px;
+    font-weight: bold;
+    margin-left: 35%;
+}
+p{
+    margin: 10px;
+}
+
+.display-content{
+    margin: auto;
+    width: 50%;
+    height: 10vh;
+    width: 500px;
+}
+.display-content span{
+    font-weight: bold;
+}
+
+
+.display-count{
+    text-align: center;
+}
+
+
+.displayPara{
+    font-weight: bolder;
+}
+input{
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 30%;
+    text-align: center;
+}
+
+.btn-display{
+    margin-left: 43%;
+}
+@media (max-width:500px){
+    .btn{
+        padding: 5px;
+    }
+    .display-content{
+        width: auto;
+    }
+    .btn-display{
+        margin-left: 42%;
+    }
+
+    input{
+        margin-left: 28%;
+    }
+
+}
+
+@media (max-width:400px){
+    .display-content p{
+        font-size: 14px;
+    }
+    input{
+        margin-left: 24%;
+    }
+}

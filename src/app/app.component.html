@@ -1,0 +1,12 @@
+<div class="display-content">
+  <h1 class="heading">Angular Assignment 1</h1>
+  <button class="btn" (click)="display()">Display Details</button>
+
+  <p *ngIf="show">Hi I am Mohit Saxena and here is some information about Angular.  <span>Angular is a TypeScript-based, free and open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS. Angular is a single-page application framework which is used for creating fast web Applications</span></p>
+
+  <p class="display-count">The number of times Display Details Button is clicked : {{count}}</p>
+
+  <input type="text" #displayText placeholder="input data">
+  <button (click)="displayData(displayText.value)" class="btn-display">Add</button>
+  <p id="displayPara"></p>
+</div>
