@@ -28,8 +28,10 @@ p{
 }
 
 
-.displayPara{
-    font-weight: bolder;
+#displayPara{
+    font-weight: bold;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 input{
     display: block;
